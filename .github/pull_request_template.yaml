@@ -1,18 +1,18 @@
 body:
- - type: textarea
+- type: textarea
   attributes:
     label: Pull request
     description: Please concisely describe the changes you have made.
   validations:
     required: false
- - type: textarea
+- type: textarea
   attributes:
     label: Issue Link
     description: Issue reference number and link goes here e.g. 'Fixes #5'.
   validations:
     required: false
 
- - type: checkboxes
+- type: checkboxes
   attributes:
     label: 👉 Please make sure to check off the following before submitting
     options:
